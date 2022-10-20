@@ -3,4 +3,6 @@ Calculadora de descuentos mediante comprobación de cupones. Desarrollado con HT
 
 # Cupones que generan los descuentos
 
-* Descuentoloco: descuento del 20%
+* **Descuentoloco:** descuento del 20%
+*  **Bienvenido:** descuento del 50%
+*  **Cuponmania:** descuento del 35%
