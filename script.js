@@ -38,16 +38,24 @@ function calcularDescuento () {
 
     let descuento; 
 
-    if (value2 === "descuento") {
+    if (value2 === "Descuentoloco") {
         descuento = 20
-    } else {
-        descuento = 10
+    } else if (value2 === "Bienvenido"){
+        descuento = 50
+    } else if (value2 === "Cuponmania"){
+        descuento = 35
+    }
+    else {
+        descuento = 0
     }
 
     const precioConDescuentoo = calcularPrecioConDescuento(value, descuento);
    
     const resultP = document.getElementById("ResultP");
+    {
+        descuento === 0 ? resultP.innerText = "El cupón no es valido" : 
     resultP.innerText = "El precio con descuento es de: $" + precioConDescuentoo + ". Tu ahorro fue del: " + descuento + "%.";
+    }
 }
 
  
